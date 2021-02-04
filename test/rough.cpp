@@ -10,6 +10,7 @@ int main()
     if(*(p-2)=='t')
     {
         cout<<"IN: IF"<<endl;
+        
     }
     cout<<"OUT: IF"<<endl;
     return 0;
