@@ -15,7 +15,7 @@ void fun(const u_char *p)
 
 int main()
 {
-    const u_char chr[8] = "tesu123";
+    const u_char chr[8] = 'tesu123';
     fun(chr);
     cout<<"IN: MAIN"<<endl;
     return 0;
