@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     const u_char chr[8] = "tesu123";
-    const u_char* p = chr;
-    cout<<"p: "<<*(p-113);
+    const u_int* p = chr;
+    cout<<"p: "<<*(p-1);
     if(*(p-2)=='t')
     {
         cout<<"IN: IF"<<endl;
