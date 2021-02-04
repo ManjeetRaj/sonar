@@ -5,7 +5,7 @@ void fun(const u_char *p)
 {
     const u_char* chr = p;
     cout<<"p: "<<*(p-1)<<endl;
-    if(*(p-2)=='t')
+    if(*(p-20)=='t')
     {
         cout<<"IN: IF"<<endl;
         
