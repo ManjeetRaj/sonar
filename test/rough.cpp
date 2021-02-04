@@ -6,7 +6,7 @@ int main()
 {
     const u_char chr[8] = "tesu123";
     const u_char* p = chr;
-    cout<<"p: "<<*(p-1);
+    cout<<"p: "<<*(p-113);
     if(*(p-2)=='t')
     {
         cout<<"IN: IF"<<endl;
